@@ -4,7 +4,7 @@ import pandas
 
 #############      Pré-processamento     ###############
 # Coleta e Integração
-arquivo = pandas.read_csv('dados_dengue.csv')
+arquivo = pandas.read_csv('estudos\python_funcional\codigo fonte\modulo 4\dados_dengue.csv')
 
 anos = arquivo[['ano']]
 casos = arquivo[['casos']]
